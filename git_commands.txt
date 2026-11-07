@@ -1,0 +1,35 @@
+1. git init
+Initializes a new local Git repository.
+
+2. git add .
+Stages all files for committing.
+
+3. git commit -m "Initial commit"
+Saves the initial project changes.
+
+4. git branch feature
+Creates a new branch named feature.
+
+5. git switch feature
+Switches to the feature branch.
+
+6. git switch main
+Switches back to the main branch.
+
+7. git merge feature
+Merges feature into main.
+
+8. git log --oneline --graph --all
+Displays the commit history and branch structure.
+
+9. git revert HEAD
+Reverses the latest commit by creating a new commit.
+
+10. git remote add origin URL
+Connects the local repository to GitHub.
+
+11. git push -u origin main
+Pushes the main branch to GitHub.
+
+12. git push -u origin feature
+Pushes the feature branch to GitHub.
